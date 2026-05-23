@@ -1,0 +1,25 @@
+:root {
+  color-scheme: dark;
+  --bg: #0c0c0f;
+  --surface: #16161d;
+  --border: #2a2a34;
+  --text: #e8e8ed;
+  --muted: #9898a8;
+  --accent: #6366f1;
+  --accent-hover: #818cf8;
+  --error: #f87171;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
